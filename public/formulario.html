@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+  <form method="post" action="/subir" enctype="multipart/form-data">
+    Seleccione la foto:
+    <input type="file" name="foto1">
+    <br>
+    <input type="submit" value="confirmar">
+  </form>
+</body>
+</html>
+
+<!--Cuando seleccionamos un archivo hemos indicado en la página html que pase en la propiedad action el valor '/subir' para poder capturar dicha ruta en el servidor. Por otro lado es importante iniciar la propiedad enctype indicando que el formulario adjunta archivos-->

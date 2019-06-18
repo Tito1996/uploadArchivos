@@ -1,0 +1,22 @@
+{
+  "name": "uploadarchivos",
+  "version": "1.0.0",
+  "description": "Upload de archivos al servidor con Node.js y el módulo 'formidable'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tito1996/uploadArchivos.git"
+  },
+  "author": "Tito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tito1996/uploadArchivos/issues"
+  },
+  "homepage": "https://github.com/Tito1996/uploadArchivos#readme",
+  "dependencies": {
+    "formidable": "^1.2.1"
+  }
+}
